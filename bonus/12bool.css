@@ -7,12 +7,18 @@
 .container {
     max-width: 1200px;
     margin: 0 auto;
+    padding: 50px;
+    background-color: palevioletred;
 }
 
 .row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.box {
+    height: 100%;
 }
 
 /* COLONNE */
@@ -22,8 +28,9 @@
 }
 
 .col-xs-1 {
-    flex-basis: calc((100% / 12) * 1);
-    max-width: calc((100% / 12) * 1);
+    flex-basis: 70px;
+    max-width: 70px;
+    height: 70px;
 }
 
 .col-xs-2 {
