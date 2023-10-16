@@ -1,0 +1,25 @@
+.box {
+    background-color: #006cfa;
+    height: 100%;
+    border: 1px solid white;
+    padding: 0.5rem;
+    color: white;
+    text-align: center;
+}
+
+.box-green {
+    background-color: green;
+    height: 100%;
+    border: 1px solid #006cfa;
+    padding: 0.5rem;
+    color: white;
+    text-align: center;
+}
+
+.hidden {
+    color: transparent;
+}
+
+h3 {
+    padding: 0.5rem;
+}
